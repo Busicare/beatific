@@ -931,7 +931,8 @@ button:focus {
 .services-item .icon i {
   font-size: 42px;
   line-height: 60px;
-  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%);
+  background: -webkit-linear-gradient(left, #3c96ff 0%, #2dfbff 100%) !important;
+  background: linear-gradient(to right, #3c96ff 0%, #2dfbff 100%) !important;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   transition: all 0.3s ease-in-out;
